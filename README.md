@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# ☕ Café Diary 📖
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal diary web app to record café visits with photos, star ratings, and monthly calendar entries.  
+Designed with a **coquette aesthetic** (pink, lavender, purple, and white) and built with **React + Bootstrap** (frontend) and **Node.js + Express + MongoDB** (backend).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 🔑 **User Authentication** (Signup/Login with JWT & bcrypt)
+- 📅 **Monthly Calendar View** for diary entries
+- 📝 **Create/Edit/Delete Entries** with notes
+- ⭐ **Rate Café Visits** with star ratings
+- 📷 **Photo Uploads** for café memories
+- 🎀 **Aesthetic UI** using React + Bootstrap
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Tech Stack
 
-### `npm test`
+**Frontend:**
+- React (via Create React App / Vite)
+- Bootstrap (UI styling)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB (via Mongoose)
+- JWT for authentication
 
-### `npm run build`
+**Other Tools:**
+- Git & GitHub
+- Postman (API testing)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/YourUsername/cafe-diary.git
+cd cafe-diary
 
-### `npm run eject`
+### 2️⃣ Install dependencies
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3️⃣ Set up environment variables
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Create a .env file in the backend folder:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+PORT=5000
+CLIENT_URL=http://localhost:3000
+MONGO_URI=your-mongodb-uri
+JWT_SECRET=your-secret-key
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 4️⃣ Run the app
 
-## Learn More
+Start the backend:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+cd backend
+npm run dev
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Start the frontend:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+cd frontend
+npm start
 
-### Analyzing the Bundle Size
+---
+📸 Screenshots
+ Homepage
+ Login page
+ Sign up page
+ Monthly Diary Page
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
