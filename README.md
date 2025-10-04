@@ -72,5 +72,9 @@ npm start
  Login page
  Sign up page
  Monthly Diary Page
+
+## 🚀 Live Project
+👉 [Visit Café Diary on Vercel](https://cafe-diary.vercel.app//)
+
  
 
