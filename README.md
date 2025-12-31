@@ -7,12 +7,12 @@ Designed with a **coquette aesthetic** (pink, lavender, purple, and white) and b
 
 ## ✨ Features
 
-- 🔑 **User Authentication** (Signup/Login with JWT & bcrypt)
-- 📅 **Monthly Calendar View** for diary entries
-- 📝 **Create/Edit/Delete Entries** with notes
-- ⭐ **Rate Café Visits** with star ratings
-- 📷 **Photo Uploads** for café memories
-- 🎀 **Aesthetic UI** using React + Bootstrap
+-  **User Authentication** (Signup/Login with JWT & bcrypt)
+-  **Monthly Calendar View** for diary entries
+-  **Create/Edit/Delete Entries** with notes
+-  **Rate Café Visits** with star ratings
+-  **Photo Uploads** for café memories
+-  **Aesthetic UI** using React + Bootstrap
 
 ---
 
